@@ -1,8 +1,0 @@
-Loading matrices...
-  Filtered to top 3000 features by variance.
-Exudate: 15 samples x 1835 features
-Microbe : 15 samples x 3000 features
-Computing sensitivity tables...
-
-Done. Saved: figure5/FigS5_threshold_sensitivity_table.csv
-Success 

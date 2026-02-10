@@ -3,6 +3,10 @@
 .Rhistory
 .RData
 .Rproj.user
+*.log
+*.bak
+local_libs/
+logs/
 figure2/Fig2_main.tiff
 *.tiff
 figure5/FigS5_threshold_sensitivity.pdf

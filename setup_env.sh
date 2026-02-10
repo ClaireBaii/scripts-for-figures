@@ -1,43 +1,58 @@
-#!/bin/bash
+#!/usr/bin/env bash
+set -euo pipefail
 
-# Define environment name
-ENV_NAME="paper_fig_env"
+ENV_FILE="${1:-environment.yaml}"
 
-# 1. Create environment if it doesn't exist (update if it does)
-echo "Ensuring conda environment '$ENV_NAME' is installed..."
-conda env update -f environment.yaml --prune
+if [[ ! -f "$ENV_FILE" ]]; then
+  echo "Environment file not found: $ENV_FILE" >&2
+  exit 1
+fi
 
-# 2. Verify installation using 'conda run' (avoids shell activation issues)
+if ! command -v conda >/dev/null 2>&1; then
+  echo "conda not found in PATH. Install Miniforge/Miniconda and run 'conda init' first." >&2
+  exit 1
+fi
+
+ENV_NAME="$(awk -F': *' '/^name:/{print $2; exit}' "$ENV_FILE")"
+if [[ -z "${ENV_NAME:-}" ]]; then
+  echo "Failed to parse environment name from $ENV_FILE" >&2
+  exit 1
+fi
+
+echo "Updating conda environment '$ENV_NAME' from '$ENV_FILE'..."
+conda env update -f "$ENV_FILE" --prune
+
 echo "----------------------------------------------------------------"
-echo "Verifying R packages in '$ENV_NAME'..."
+echo "Verifying required R packages in '$ENV_NAME'..."
 echo "----------------------------------------------------------------"
 
-conda run -n $ENV_NAME Rscript -e "
+verify_script="$(mktemp)"
+cat >"$verify_script" <<'RSCRIPT'
 pkgs <- c(
-  'ggplot2', 'igraph', 'Hmisc', 'ggraph', 'RColorBrewer', 'scales',
-  'circlize', 'vegan', 'data.table', 'mixOmics', 'ComplexHeatmap',
-  'pheatmap', 'ggrepel'
+  "ggplot2", "igraph", "Hmisc", "ggraph", "RColorBrewer", "scales",
+  "circlize", "vegan", "data.table", "mixOmics", "ComplexHeatmap",
+  "pheatmap", "ggrepel"
 )
 
-message('Checking package status...')
-installed <- sapply(pkgs, requireNamespace, quietly = TRUE)
-if (all(installed)) {
-  message('[OK] All required packages are found!')
+missing <- pkgs[!vapply(pkgs, requireNamespace, logical(1), quietly = TRUE)]
+if (length(missing) == 0) {
+  message("[OK] All required packages are installed.")
 } else {
-  missing <- pkgs[!installed]
-  stop('Missing packages: ', paste(missing, collapse = ', '))
+  stop("Missing packages: ", paste(missing, collapse = ", "))
 }
-"
+RSCRIPT
 
-# 3. Final instructions
-if [ $? -eq 0 ]; then
-    echo "----------------------------------------------------------------"
-    echo "Setup Successful!"
-    echo "To start using the environment, run:"
-    echo "    conda activate $ENV_NAME"
-    echo "----------------------------------------------------------------"
+if conda run -n "$ENV_NAME" Rscript "$verify_script"; then
+  rm -f "$verify_script"
+  echo "----------------------------------------------------------------"
+  echo "Setup successful."
+  echo "Run: conda activate $ENV_NAME"
+  echo "----------------------------------------------------------------"
 else
-    echo "----------------------------------------------------------------"
-    echo "Verification Failed. Checks above for errors."
-    echo "----------------------------------------------------------------"
+  status=$?
+  rm -f "$verify_script"
+  echo "----------------------------------------------------------------" >&2
+  echo "Verification failed. See errors above." >&2
+  echo "----------------------------------------------------------------" >&2
+  exit "$status"
 fi
