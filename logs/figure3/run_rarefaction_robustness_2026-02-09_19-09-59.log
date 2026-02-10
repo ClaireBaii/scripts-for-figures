@@ -1,0 +1,7 @@
+Detected sample columns = 15 
+First few sample IDs:  RDYS_1-1, RDYS_1-2, RDYS_1-3, RDYS_2-1, RDYS_2-2, RDYS_2-3, RDYS_3-1, RDYS_3-2 
+Group counts:
+
+Control  Treat1  Treat2  Treat3  Treat4 
+      3       3       3       3       3 
+Done. Outputs written to: E:\我的\根际\杨树根系\待修订的图及脚本\scripts-for-figures/figure3
