@@ -1,0 +1,23 @@
+{
+  "title": "scripts-for-figures",
+  "description": "Code and data-processing scripts for paper figures (Figure 2 to Figure 9).",
+  "upload_type": "software",
+  "access_right": "open",
+  "license": "MIT",
+  "creators": [
+    {
+      "name": "Cai, Jinxiu",
+      "orcid": "0009-0004-8746-6627"
+    },
+    {
+      "name": "Zhu, Ziyang",
+      "orcid": "0009-0001-1933-1921"
+    }
+  ],
+  "keywords": [
+    "reproducibility",
+    "figure generation",
+    "R",
+    "bioinformatics"
+  ]
+}
