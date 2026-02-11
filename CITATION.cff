@@ -1,0 +1,22 @@
+cff-version: 1.2.0
+message: "If you use this repository, please cite it as follows."
+title: "scripts-for-figures"
+type: software
+authors:
+  - family-names: "Cai"
+    given-names: "Jinxiu"
+    email: "jupiter2351198394@163.com"
+    orcid: "https://orcid.org/0009-0004-8746-6627"
+  - family-names: "Zhu"
+    given-names: "Ziyang"
+    email: "zzyjacobyes@gmail.com"
+    orcid: "https://orcid.org/0009-0001-1933-1921"
+repository-code: "https://github.com/ClaireBaii/scripts-for-figures"
+url: "https://github.com/ClaireBaii/scripts-for-figures"
+license: "MIT"
+abstract: "Code and data-processing scripts for paper figures (Figure 2 to Figure 9)."
+keywords:
+  - reproducibility
+  - figure generation
+  - R
+  - bioinformatics
