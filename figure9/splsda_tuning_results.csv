@@ -1,3 +1,5 @@
-"choice_ncomp","component","keepX","folds","repeats","dist","measure"
-2,1,5,3,50,"centroids.dist","BER"
-2,2,15,3,50,"centroids.dist","BER"
+"Block","Component","Optimal_keepX"
+"Metabolites",1,10
+"Metabolites",2,15
+"Taxon",1,10
+"Taxon",2,5

@@ -1,21 +1,41 @@
-"Feature","Component","Loading","AbsLoading","RankAbs","Type","Super_Class","Class","Sub_Class"
-"Streptoaminal-8N",1,0.584073573062177,0.584073573062177,1,"Metabolite","Organoheterocyclic compounds","Azaspirodecane derivatives",""
-"Isofraxidin",1,0.57494934182135,0.57494934182135,2,"Metabolite","Phenylpropanoids and polyketides","Coumarins and derivatives","Hydroxycoumarins"
-"Marinoquinoline C",1,0.452513609425531,0.452513609425531,3,"Metabolite","Organoheterocyclic compounds","Quinolines and derivatives","Pyrroloquinolines"
-"Lupinisoflavone G",1,0.336576027107881,0.336576027107881,4,"Metabolite","Phenylpropanoids and polyketides","Isoflavonoids","Isoflavans"
-"Coniferaldehyde",1,0.101189558999587,0.101189558999587,5,"Metabolite","Benzenoids","Phenols","Methoxyphenols"
-"Biverlactone B",2,0.446928339615975,0.446928339615975,1,"Metabolite","Organoheterocyclic compounds","Lactones","Delta valerolactones"
-"Sch 725674",2,-0.434283905765541,0.434283905765541,2,"Metabolite","Phenylpropanoids and polyketides","Macrolides and analogues",""
-"8,8a-Deoxyoleandolide",2,-0.338940383348516,0.338940383348516,3,"Metabolite","Phenylpropanoids and polyketides","Macrolides and analogues",""
-"(2s)-12-[(2r,5s,6s)-5-hydroxy-6-methylpiperidin-2-yl]dodecane-1,2-diol",2,-0.274091738355643,0.274091738355643,4,"Metabolite","Alkaloids and derivatives","",""
-"Sinensol E",2,0.269440269513408,0.269440269513408,5,"Metabolite","Benzenoids","Phenanthrenes and derivatives",""
-"Pyrenocine K",2,-0.268947499792017,0.268947499792017,6,"Metabolite","Organoheterocyclic compounds","Pyrans","Pyranones and derivatives"
-"Dechlororoseophilin",2,-0.25801852191645,0.25801852191645,7,"Metabolite","Organic oxygen compounds","Organooxygen compounds","Ethers"
-"Surinone B",2,0.243867262908364,0.243867262908364,8,"Metabolite","Organic oxygen compounds","Organooxygen compounds","Carbonyl compounds"
-"Isoconulothiazole B",2,-0.210080083675084,0.210080083675084,9,"Metabolite","Benzenoids","Benzene and substituted derivatives",""
-"1-Acetylaspidoalbidine",2,0.171714100683875,0.171714100683875,10,"Metabolite","Organoheterocyclic compounds","Indoles and derivatives","Carbazoles"
-"Glyceryl linolenate",2,-0.170688130560393,0.170688130560393,11,"Metabolite","Lipids and lipid-like molecules","Fatty Acyls","Lineolic acids and derivatives"
-"Cytosporin S",2,-0.153428547027313,0.153428547027313,12,"Metabolite","Organoheterocyclic compounds","Oxanes",""
-"XANTHINE",2,-0.105868011425992,0.105868011425992,13,"Metabolite","Organoheterocyclic compounds","Imidazopyrimidines","Purines and purine derivatives"
-"Lanopylin B2",2,-0.0929233049792347,0.0929233049792347,14,"Metabolite","Organoheterocyclic compounds","Pyrrolines",""
-"(4ar,5s,6as,7r,10ar,11ar,11bs)-7,10a-dihydroxy-4,4,7,11b-tetramethyl-9-oxo-1h,2h,3h,4ah,5h,6h,6ah,11h,11ah-phenanthro[3,2-b]furan-5-yl acetate",2,0.0673287498205731,0.0673287498205731,15,"Metabolite","Organoheterocyclic compounds","Naphthofurans",""
+"Feature","Component","Loading","AbsLoading","Type","RankAbs","Super_Class","Class","Sub_Class"
+"5-hydroxy-3,6,10-trimethyl-3h,3ah,4h,5h,8h,9h,11ah-cyclodeca[b]furan-2-one",1,0.544995397821994,0.544995397821994,"Metabolite",1,"Lipids and lipid-like molecules","Prenol lipids","Terpene lactones"
+"2-(4a,8-dimethyl-2,3,4,8a-tetrahydro-1h-naphthalen-2-yl)propan-2-ol",1,0.451347803966645,0.451347803966645,"Metabolite",2,"Lipids and lipid-like molecules","Prenol lipids","Sesquiterpenoids"
+"9-oxo-7E-hexadecenoic acid",1,0.349305365094376,0.349305365094376,"Metabolite",3,"Lipids and lipid-like molecules","Fatty Acyls","Fatty acids and conjugates"
+"Ent-paeciloketal A",1,0.343500599589725,0.343500599589725,"Metabolite",4,"Benzenoids","Benzene and substituted derivatives","Butyrophenones"
+"Albocycline M-4",1,0.276045864286739,0.276045864286739,"Metabolite",5,"","",""
+"Schiffnerone A",1,0.273777118004811,0.273777118004811,"Metabolite",6,"Lipids and lipid-like molecules","Prenol lipids","Sesquiterpenoids"
+"2-Hydroxycinnamic acid, predominantly trans",1,0.258270138005987,0.258270138005987,"Metabolite",7,"Phenylpropanoids and polyketides","Cinnamic acids and derivatives","Hydroxycinnamic acids and derivatives"
+"2-(4,5-dihydroxy-2-methoxyphenyl)-5-hydroxy-8,8-dimethyl-3-(3-methylbut-2-en-1-yl)-4H,8H-pyrano[2,3-h]chromen-4-one",1,0.193761215871086,0.193761215871086,"Metabolite",8,"Phenylpropanoids and polyketides","Flavonoids","Flavones"
+"Manaoic acid",1,0.0543939679788712,0.0543939679788712,"Metabolite",9,"Lipids and lipid-like molecules","Fatty Acyls","Fatty acids and conjugates"
+"2-Methyl-3-oxopropanoic acid",1,0.0299578029622335,0.0299578029622335,"Metabolite",10,"Organic oxygen compounds","Organooxygen compounds","Carbonyl compounds"
+"11-(2-cyclopenten-1-yl)-9Z-undecenoic acid",2,-0.42043276009943,0.42043276009943,"Metabolite",1,"Lipids and lipid-like molecules","Fatty Acyls","Fatty acids and conjugates"
+"1-{4-methoxy-2,12-diazahexacyclo[14.3.2.1,.0,.0,.0,]docosa-3(8),4,6-trien-2-yl}ethanone",2,-0.379732258526694,0.379732258526694,"Metabolite",2,"","",""
+"4-(Ethoxymethyl)-2-methyl-1H-indole",2,-0.378724920044426,0.378724920044426,"Metabolite",3,"Benzenoids","Benzene and substituted derivatives","Benzoic acids and derivatives"
+"FJ120DPA",2,0.361031384796502,0.361031384796502,"Metabolite",4,"Organic acids and derivatives","Peptidomimetics","Depsipeptides"
+"Dehydrosalsolidine",2,-0.333556112764938,0.333556112764938,"Metabolite",5,"Organoheterocyclic compounds","Dihydroisoquinolines",""
+"8-keto palmitic acid",2,-0.281657486943219,0.281657486943219,"Metabolite",6,"Lipids and lipid-like molecules","Fatty Acyls","Fatty acids and conjugates"
+"Ethyl (E)-8-Oxohexadec-9-Enoate",2,0.213151868437537,0.213151868437537,"Metabolite",7,"Lipids and lipid-like molecules","Fatty Acyls","Fatty acid esters"
+"Pregabalin",2,-0.200133884248948,0.200133884248948,"Metabolite",8,"Organic acids and derivatives","Carboxylic acids and derivatives","Amino acids, peptides, and analogues"
+"Fungichromin B",2,0.194431208941169,0.194431208941169,"Metabolite",9,"Phenylpropanoids and polyketides","Macrolides and analogues",""
+"16-hydroxy-4,4,8,10,14-pentamethyl-17-(4,5,6-trihydroxy-6-methylheptan-2-yl)-1,2,5,6,7,9,11,12,15,16-decahydrocyclopenta[a]phenanthren-3-one",2,0.156068811330694,0.156068811330694,"Metabolite",10,"Lipids and lipid-like molecules","Prenol lipids","Triterpenoids"
+"Linoleamide",2,0.142746437840807,0.142746437840807,"Metabolite",11,"Organic acids and derivatives","Carboximidic acids and derivatives","Carboximidic acids"
+"2,4-bis[2-(3,4-dimethoxyphenyl)ethenyl]oxolane",2,-0.130847251384782,0.130847251384782,"Metabolite",12,"Phenylpropanoids and polyketides","Diarylheptanoids","Linear diarylheptanoids"
+"4,6,12-trihydroxy-3,5,7,9,11,13-hexamethyl-14-propyl-1-oxacyclotetradecane-2,10-dione",2,-0.119627773866131,0.119627773866131,"Metabolite",13,"Phenylpropanoids and polyketides","Macrolides and analogues",""
+"illihenryifunone C",2,0.110425946937584,0.110425946937584,"Metabolite",14,"Organoheterocyclic compounds","Benzofurans",""
+"(Z)-2-octylpent-2-enedioic acid",2,0.0549759730493636,0.0549759730493636,"Metabolite",15,"Lipids and lipid-like molecules","Fatty Acyls","Fatty acids and conjugates"
+"Fibrobacterota",1,0.490946185685901,0.490946185685901,"Taxon",1,NA,NA,NA
+"Bdellovibrionota",1,-0.47456938727547,0.47456938727547,"Taxon",2,NA,NA,NA
+"Deinococcota",1,-0.466297532951365,0.466297532951365,"Taxon",3,NA,NA,NA
+"Firmicutes",1,-0.395465901331057,0.395465901331057,"Taxon",4,NA,NA,NA
+"Desulfobacterota",1,-0.289216722999588,0.289216722999588,"Taxon",5,NA,NA,NA
+"SAR324_clade(Marine_group_B)",1,0.204014358923727,0.204014358923727,"Taxon",6,NA,NA,NA
+"Patescibacteria",1,0.183558606539821,0.183558606539821,"Taxon",7,NA,NA,NA
+"Planctomycetota",1,0.0210758783801008,0.0210758783801008,"Taxon",8,NA,NA,NA
+"Dadabacteria",1,-0.0182014651464517,0.0182014651464517,"Taxon",9,NA,NA,NA
+"MBNT15",1,0.0138438268496946,0.0138438268496946,"Taxon",10,NA,NA,NA
+"Actinobacteriota",2,0.70897903452601,0.70897903452601,"Taxon",1,NA,NA,NA
+"Nitrospirota",2,0.575413155124624,0.575413155124624,"Taxon",2,NA,NA,NA
+"Gemmatimonadota",2,-0.299712961268472,0.299712961268472,"Taxon",3,NA,NA,NA
+"Entotheonellaeota",2,-0.276423155088779,0.276423155088779,"Taxon",4,NA,NA,NA
+"Bacteroidota",2,-0.00328780938318185,0.00328780938318185,"Taxon",5,NA,NA,NA

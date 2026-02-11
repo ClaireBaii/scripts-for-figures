@@ -1,28 +1,28 @@
 "Feature","Importance","Component","Loading","Type","Super_Class","Class","Sub_Class","Rank"
-"Streptoaminal-8N",0.584073573062177,1,0.584073573062177,"Metabolite","Organoheterocyclic compounds","Azaspirodecane derivatives","",1
-"Isofraxidin",0.57494934182135,1,0.57494934182135,"Metabolite","Phenylpropanoids and polyketides","Coumarins and derivatives","Hydroxycoumarins",2
-"Marinoquinoline C",0.452513609425531,1,0.452513609425531,"Metabolite","Organoheterocyclic compounds","Quinolines and derivatives","Pyrroloquinolines",3
-"Biverlactone B",0.446928339615975,2,0.446928339615975,"Metabolite","Organoheterocyclic compounds","Lactones","Delta valerolactones",4
-"Sch 725674",0.434283905765541,2,-0.434283905765541,"Metabolite","Phenylpropanoids and polyketides","Macrolides and analogues","",5
-"8,8a-Deoxyoleandolide",0.338940383348516,2,-0.338940383348516,"Metabolite","Phenylpropanoids and polyketides","Macrolides and analogues","",6
-"Lupinisoflavone G",0.336576027107881,1,0.336576027107881,"Metabolite","Phenylpropanoids and polyketides","Isoflavonoids","Isoflavans",7
-"(2s)-12-[(2r,5s,6s)-5-hydroxy-6-methylpiperidin-2-yl]dodecane-1,2-diol",0.274091738355643,2,-0.274091738355643,"Metabolite","Alkaloids and derivatives","","",8
-"Sinensol E",0.269440269513408,2,0.269440269513408,"Metabolite","Benzenoids","Phenanthrenes and derivatives","",9
-"Pyrenocine K",0.268947499792017,2,-0.268947499792017,"Metabolite","Organoheterocyclic compounds","Pyrans","Pyranones and derivatives",10
-"Dechlororoseophilin",0.25801852191645,2,-0.25801852191645,"Metabolite","Organic oxygen compounds","Organooxygen compounds","Ethers",11
-"Surinone B",0.243867262908364,2,0.243867262908364,"Metabolite","Organic oxygen compounds","Organooxygen compounds","Carbonyl compounds",12
-"Isoconulothiazole B",0.210080083675084,2,-0.210080083675084,"Metabolite","Benzenoids","Benzene and substituted derivatives","",13
-"1-Acetylaspidoalbidine",0.171714100683875,2,0.171714100683875,"Metabolite","Organoheterocyclic compounds","Indoles and derivatives","Carbazoles",14
-"Glyceryl linolenate",0.170688130560393,2,-0.170688130560393,"Metabolite","Lipids and lipid-like molecules","Fatty Acyls","Lineolic acids and derivatives",15
-"Proteobacteria",0,1,0,"Taxon",NA,NA,NA,1
-"Chloroflexi",0,1,0,"Taxon",NA,NA,NA,2
-"Acidobacteriota",0,1,0,"Taxon",NA,NA,NA,3
-"Bacteroidota",0,1,0,"Taxon",NA,NA,NA,4
-"Actinobacteriota",0,1,0,"Taxon",NA,NA,NA,5
-"Verrucomicrobiota",0,1,0,"Taxon",NA,NA,NA,6
-"Firmicutes",0,1,0,"Taxon",NA,NA,NA,7
-"unclassified_Bacteria",0,1,0,"Taxon",NA,NA,NA,8
-"Latescibacterota",0,1,0,"Taxon",NA,NA,NA,9
-"Patescibacteria",0,1,0,"Taxon",NA,NA,NA,10
-"Gemmatimonadota",0,1,0,"Taxon",NA,NA,NA,11
-"Myxococcota",0,1,0,"Taxon",NA,NA,NA,12
+"5-hydroxy-3,6,10-trimethyl-3h,3ah,4h,5h,8h,9h,11ah-cyclodeca[b]furan-2-one",0.544995397821994,1,0.544995397821994,"Metabolite","Lipids and lipid-like molecules","Prenol lipids","Terpene lactones",1
+"2-(4a,8-dimethyl-2,3,4,8a-tetrahydro-1h-naphthalen-2-yl)propan-2-ol",0.451347803966645,1,0.451347803966645,"Metabolite","Lipids and lipid-like molecules","Prenol lipids","Sesquiterpenoids",2
+"11-(2-cyclopenten-1-yl)-9Z-undecenoic acid",0.42043276009943,2,-0.42043276009943,"Metabolite","Lipids and lipid-like molecules","Fatty Acyls","Fatty acids and conjugates",3
+"1-{4-methoxy-2,12-diazahexacyclo[14.3.2.1,.0,.0,.0,]docosa-3(8),4,6-trien-2-yl}ethanone",0.379732258526694,2,-0.379732258526694,"Metabolite","","","",4
+"4-(Ethoxymethyl)-2-methyl-1H-indole",0.378724920044426,2,-0.378724920044426,"Metabolite","Benzenoids","Benzene and substituted derivatives","Benzoic acids and derivatives",5
+"FJ120DPA",0.361031384796502,2,0.361031384796502,"Metabolite","Organic acids and derivatives","Peptidomimetics","Depsipeptides",6
+"9-oxo-7E-hexadecenoic acid",0.349305365094376,1,0.349305365094376,"Metabolite","Lipids and lipid-like molecules","Fatty Acyls","Fatty acids and conjugates",7
+"Ent-paeciloketal A",0.343500599589725,1,0.343500599589725,"Metabolite","Benzenoids","Benzene and substituted derivatives","Butyrophenones",8
+"Dehydrosalsolidine",0.333556112764938,2,-0.333556112764938,"Metabolite","Organoheterocyclic compounds","Dihydroisoquinolines","",9
+"8-keto palmitic acid",0.281657486943219,2,-0.281657486943219,"Metabolite","Lipids and lipid-like molecules","Fatty Acyls","Fatty acids and conjugates",10
+"Albocycline M-4",0.276045864286739,1,0.276045864286739,"Metabolite","","","",11
+"Schiffnerone A",0.273777118004811,1,0.273777118004811,"Metabolite","Lipids and lipid-like molecules","Prenol lipids","Sesquiterpenoids",12
+"2-Hydroxycinnamic acid, predominantly trans",0.258270138005987,1,0.258270138005987,"Metabolite","Phenylpropanoids and polyketides","Cinnamic acids and derivatives","Hydroxycinnamic acids and derivatives",13
+"Ethyl (E)-8-Oxohexadec-9-Enoate",0.213151868437537,2,0.213151868437537,"Metabolite","Lipids and lipid-like molecules","Fatty Acyls","Fatty acid esters",14
+"Pregabalin",0.200133884248948,2,-0.200133884248948,"Metabolite","Organic acids and derivatives","Carboxylic acids and derivatives","Amino acids, peptides, and analogues",15
+"Actinobacteriota",0.70897903452601,2,0.70897903452601,"Taxon",NA,NA,NA,1
+"Nitrospirota",0.575413155124624,2,0.575413155124624,"Taxon",NA,NA,NA,2
+"Fibrobacterota",0.490946185685901,1,0.490946185685901,"Taxon",NA,NA,NA,3
+"Bdellovibrionota",0.47456938727547,1,-0.47456938727547,"Taxon",NA,NA,NA,4
+"Deinococcota",0.466297532951365,1,-0.466297532951365,"Taxon",NA,NA,NA,5
+"Firmicutes",0.395465901331057,1,-0.395465901331057,"Taxon",NA,NA,NA,6
+"Gemmatimonadota",0.299712961268472,2,-0.299712961268472,"Taxon",NA,NA,NA,7
+"Desulfobacterota",0.289216722999588,1,-0.289216722999588,"Taxon",NA,NA,NA,8
+"Entotheonellaeota",0.276423155088779,2,-0.276423155088779,"Taxon",NA,NA,NA,9
+"SAR324_clade(Marine_group_B)",0.204014358923727,1,0.204014358923727,"Taxon",NA,NA,NA,10
+"Patescibacteria",0.183558606539821,1,0.183558606539821,"Taxon",NA,NA,NA,11
+"Planctomycetota",0.0210758783801008,1,0.0210758783801008,"Taxon",NA,NA,NA,12
